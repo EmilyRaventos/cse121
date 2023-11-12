@@ -5,8 +5,8 @@
 /* Step 2 - Variables */
 let fullName = "Emily Raventos";
 let currentYear = "2023";
-// let profilePicture = "images/profilePic.jpg";
-let profilePicture = "w02-task/images/profilePic.jpg";
+let profilePicture = "images/profilePic.jpg";
+// let profilePicture = "w02-task/images/profilePic.j   pg";
 
 /* Step 3 - Element Variables */
 const nameElement = document.getElementById("name");
@@ -19,7 +19,7 @@ imageElement.src = profilePicture;
 
 /* Step 4 - Adding Content */
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
-imageElement.setAttribute("src", "/images/profilePic.jpg");
+imageElement.setAttribute("src", profilePicture);
 imageElement.setAttribute("alt", `Profile image of ${fullName}`);
 
 /* Step 5 - Array */
