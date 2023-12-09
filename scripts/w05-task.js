@@ -1,7 +1,7 @@
 /* W05: Programming Tasks */
 
 /* Declare and initialize global variables */
-const templesElement = document.getElementById(`#temples`);
+const templesElement = document.getElementById(`temples`);
 const templeList = [];
 
 /* async displayTemples Function */
@@ -18,6 +18,8 @@ const displayTemples = (temples) => {
 
     // Set temple name in h3 element
     h3.textContent = temple.templeName;
+
+    const imageUrl = `https://byui-cse.github.io/cse121b-ww-course/${temple.imageUrl}`;
 
     // Set image source and alt attributes
     img.src = temple.imageUrl;
