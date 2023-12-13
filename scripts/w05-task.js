@@ -1,8 +1,8 @@
 /* W05: Programming Tasks */
 
 /* Declare and initialize global variables */
-const templesElement = document.getElementById(`temples`);
-const templeList = [];
+let templesElement = document.getElementById(`temples`);
+let templeList = [];
 
 /* async displayTemples Function */
 const displayTemples = (temples) => {
