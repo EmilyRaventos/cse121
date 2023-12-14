@@ -77,7 +77,7 @@ document.getElementById("getTotal").addEventListener("click", function () {
 /* ARRAY METHODS - Functional Programming */
 /* Output Source Array */
 let numbersArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13];
-document.querySelector("array").innerHTML = numbersArray.toString();
+document.querySelector("#array").innerHTML = numbersArray.toString();
 
 /* Output Odds Only Array */
 document.querySelector("#odds").innerHTML = numbersArray
